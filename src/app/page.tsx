@@ -1,3 +1,11 @@
+import Header from "@/components/header";
+import Intro from "@/components/intro";
+
 export default function Home() {
-  return <main className="">Home page</main>;
+  return (
+    <main className="flex flex-col items-center px-4">
+      <Header />
+      <Intro />
+    </main>
+  );
 }
