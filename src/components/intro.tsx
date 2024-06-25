@@ -56,8 +56,9 @@ function Intro() {
       >
         <span className="font-bold">你好, 我是徐紫微，</span>是一位{" "}
         <span className="font-bold">有着超过</span>{" "}
-        <span className="font-bold">8年</span>经验的资深前端开发工程师。我喜欢
-        构建<span className="italic">网站和移动web应用</span>。目前主要专注于{" "}
+        <span className="font-bold">8年前端开发经验</span>
+        的资深前端开发工程师。我喜欢构建
+        <span className="italic">网站和移动web应用</span>。目前主要专注于{" "}
         <span className="underline">React相关应用的开发</span>。
       </motion.h1>
 
