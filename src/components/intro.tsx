@@ -7,7 +7,6 @@ import Link from "next/link";
 import { BsArrowRight, BsTwitterX } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-// import { useSectionInView } from "@/lib/hooks";
 
 function Intro() {
   return (
