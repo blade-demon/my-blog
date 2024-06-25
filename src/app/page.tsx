@@ -1,9 +1,17 @@
-import Image from "next/image";
+import Header from "@/components/header";
+import Intro from "@/components/intro";
+import SectionDivider from "@/components/section-divider";
+import About from "@/components/about";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home page
+    <main className="flex flex-col items-center px-4">
+      <Header />
+      <Intro />
+      <SectionDivider />
+      <About />
+      <Projects />
     </main>
   );
 }
