@@ -11,7 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 function Intro() {
-  const { ref } = useSectionInView("关于我", 0.5);
+  const { ref } = useSectionInView("主页", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (

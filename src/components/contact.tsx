@@ -4,7 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-// import { sendEmail } from "@/actions/sendEmail";
+import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
@@ -42,14 +42,14 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          // const { data, error } = await sendEmail(formData);
+          const { data, error } = await sendEmail(formData);
 
-          // if (error) {
-          //   toast.error(error);
-          //   return;
-          // }
+          if (error) {
+            toast.error(error);
+            return;
+          }
 
-          toast.success("Email sent successfully!");
+          toast.success("邮件发送成功！");
         }}
       >
         <input
@@ -58,12 +58,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="你的邮箱"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder="你的消息"
           required
           maxLength={5000}
         />
