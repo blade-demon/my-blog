@@ -36,28 +36,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "软件开发工程师",
+    location: "北京，中国",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "我使用C++、Qt编写桌面应用，并在工作之余研究学习游戏开发相关技术。",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2012-2014",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "游戏开发工程师",
+    location: "上海，中国",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "2014年我来到上海，开始就职于Unity3D公司，进行游戏开发，主要对国外的游戏进行本土化开发。在工作的同时，我开始接触到了Node.js，并在工作之余自学了一些前端相关的知识。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014-2015",
+  },
+  {
+    title: "全栈开发工程师",
+    location: "上海，中国",
+    description:
+      "2015年我开始承担公司的前端以及部分后端工作。从零开始主持公司的网站，微信公众号，小程序等其他web相关应用。使用的技术栈包括：React, TypeScript, Express 以及 MongoDB。",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2015-2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "高级前端开发工程师",
+    location: "上海，中国",
+    description: "现在我供职于中国平安，担任高级前端开发工程师。",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2019-现在",
   },
 ] as const;
 
