@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+// import { FaReact } from "react-icons/fa";
+// import { LuGraduationCap } from "react-icons/lu";
 
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -40,7 +40,7 @@ export const experiencesData = [
     location: "北京，中国",
     description:
       "我使用C++、Qt编写桌面应用，并在工作之余研究学习游戏开发相关技术。",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2012-2014",
   },
   {
@@ -48,7 +48,7 @@ export const experiencesData = [
     location: "上海，中国",
     description:
       "2014年我来到上海，开始就职于Unity3D公司，进行游戏开发，主要对国外的游戏进行本土化开发。在工作的同时，我开始接触到了Node.js，并在工作之余自学了一些前端相关的知识。",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2014-2015",
   },
   {
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "高级前端开发工程师",
     location: "上海，中国",
     description: "现在我供职于中国平安，担任高级前端开发工程师。",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2019-现在",
   },
 ] as const;
