@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import "./globals.css";
@@ -39,6 +40,8 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
+
+        <SpeedInsights />
       </body>
     </html>
   );
