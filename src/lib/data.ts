@@ -70,10 +70,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "用户行为回溯系统",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "行为可回溯系统为我们后期提供有效的图片、音频或者视频相关的有效资料，以便调查，检查使用。通过记录用户行为序列存储，经过回放播放器回放还原用户操作真实场景，分析核心流程转化并呈现用户行为偏好，基于用户行为优化用户体验，根据用户操作轨迹了解异常发生的全部过程，协助研发人员定位处理异常问题，实现通过行为分析达到异常追踪的方式。",
+    tags: ["React", "Puppeteer", "rrweb", "ffmpeg", "ffmpeg-wasm", "MongoDB"],
     imageUrl: corpcommentImg,
   },
   {
@@ -99,10 +99,14 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Redux",
-  "Tailwind",
+  "Webpack",
   "Vite",
   "Rollup",
+  "Gulp",
+  "ffmpeg",
+  "ffmpeg-wasm",
   "Vue",
+  "Tailwind",
   "Next.js",
   "Node.js",
   "Express",
