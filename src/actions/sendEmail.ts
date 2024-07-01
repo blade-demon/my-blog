@@ -14,12 +14,12 @@ export const sendEmail = async (formData: FormData) => {
   // simple server-side validation
   if (!validateString(senderEmail, 500)) {
     return {
-      error: "Invalid sender email",
+      error: "非法邮箱信息",
     };
   }
   if (!validateString(message, 5000)) {
     return {
-      error: "Invalid message",
+      error: "非法输入信息",
     };
   }
 
